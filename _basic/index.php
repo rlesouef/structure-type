@@ -11,7 +11,7 @@
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<link rel="stylesheet" href="/assets/css/styles.min.css" media="all">
 </head>
 <body>
 	<div class="skip-links">

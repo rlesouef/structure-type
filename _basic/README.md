@@ -11,10 +11,6 @@ Principe global :
 
 ```
 index.php
-styles.min.css 	(styles générés)
-main.min.css 	(JS générés)
-rss.xml
-404.html
 favicon.ico
 bower.json		(config des dépendances)
 .bowerrc		(config du chemin des dépendances)
@@ -24,24 +20,29 @@ bower.json		(config des dépendances)
 		footer.php
 		header.php
 		etc.php
-	/img
-		logo.png
-		spacer.gif
-	/videos
-	/js
-		global.js
-	/css
-		styles.less (styles de dev)
-		/illust
-		/fonts
-		/css-includes
-			/knacss
-				/less
-					/knacss.less
-	/vendor
-		/modernizr
-		/bootstrap
-		/jquery
+    /assets (contient /img, /videos, /css, /js, /vendor)
+	   /img
+		  logo.png
+		  spacer.gif
+	   /videos
+	   /js
+		  global.js (JS de dev)
+            global.min.css (JS de prod)
+	   /css
+		  styles.less (styles de dev)
+          styles.min.css  (styles de prod)
+		  /img
+		  /fonts
+		  /css-includes
+			 /knacss
+				    /less
+					   /knacss.less
+	   /vendor
+		  /modernizr
+		  /bootstrap
+		  /jquery
+    /error
+        404.html
 ```
 
 ##Install
