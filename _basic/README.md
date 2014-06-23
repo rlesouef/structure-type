@@ -10,7 +10,7 @@ Principe global :
 ## Structure
 
 ```
-index.php
+index.html
 favicon.ico
 bower.json		(config des dépendances)
 .bowerrc		(config du chemin des dépendances)
