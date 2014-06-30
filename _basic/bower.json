@@ -1,6 +1,8 @@
 {
     "name": "projet",
     "dependencies": {
-        "knacss": "latest"
+        "knacss": "latest",
+		"html5shiv": "latest",
+		"jquery": "latest"
     }
 }
